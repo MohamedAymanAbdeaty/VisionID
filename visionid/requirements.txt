@@ -1,0 +1,16 @@
+numpy
+opencv-python
+onnxruntime
+insightface
+faiss-cpu
+pandas
+matplotlib
+scikit-learn
+psutil
+fastapi
+uvicorn[standard]
+python-multipart
+aiofiles
+Pillow
+tqdm
+rich

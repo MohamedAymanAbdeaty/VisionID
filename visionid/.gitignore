@@ -1,0 +1,41 @@
+# VisionID .gitignore
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Models (large binary files – download on first run)
+models/*.onnx
+models/*.bin
+
+# Data (may contain biometric info)
+data/enrollment/
+data/generated/*.npy
+
+# Indexes
+data/indexes/
+
+# Database
+data/*.db
+
+# Results (regeneratable)
+results/plots/*.png
+results/csv/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# InsightFace model cache
+~/.insightface/
